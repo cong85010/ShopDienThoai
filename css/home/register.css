@@ -1,0 +1,249 @@
+
+.container-form{
+    position: relative;
+}
+ .header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+}
+.container-form{
+    margin: 30px 0;
+}
+.email-text{
+   z-index: 10;
+    margin: 10px 0;
+    height: 55px;
+    width: 100%;
+    font-size: 18px;
+}
+.email-text{
+    padding-left: 30px;
+}
+
+.name-pass{
+    position: relative;
+   margin-bottom: 20px;
+   height: 100px;
+}
+
+.radio-input{
+    width: 60px;
+    height: 20px;
+}
+.button-lg{
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    box-shadow: 3px 3px 0 1px rgb(171 171 171);
+    border: 1px solid transparent;
+    outline: none;
+    transition: 0.3s !important;  
+}
+.button-lg:active{
+    transform: translate(5px, 5px);
+}
+.button-lg span {
+    color: white !important;
+    font-size: 17px;
+    line-height: 35px;
+}
+.span-login{
+    font-size: 15px;
+    position: relative;
+    top: -20px;
+}
+
+.button-sm {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border: black 1px solid;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.button-sm:hover {
+    box-shadow: 1px 1px 2px 0px black;
+}
+.jum{
+    margin-top: 30px;
+}
+.lg-submit-fast{
+    margin-top: 30px;
+}
+.lg-submit-fast-f,
+.lg-submit-fast-g{
+    margin-top: 15px;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-google{
+    color: rgb(221, 26, 26);
+}
+.button-f:hover,
+.button-f.hover {
+  color: blue;
+}
+.button-f:hover:before,
+.button-f.hover:before {
+  -webkit-transform: translateY(10px);
+  transform: translateY(0%);
+  opacity: 0.25;
+}
+.button-g:hover,
+.button-g.hover {
+  color: rgb(221, 26, 26);
+}
+.button-g:hover:before,
+.button-g.hover:before {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+  opacity: 0.25;
+}
+.right-title{
+    font-family: "Noto Sans","AdihausDIN","Helvetica",Arial,sans-serif ;
+    position: relative;
+    color: black;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.rg>li{
+    list-style-type: none;
+    padding-left: 7%;
+    margin: 10px 0;
+   line-height: 25px;
+   font-size: 17px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name  span::after {
+    content: ' *';
+    color: red;
+} 
+.name-date span::after{
+    content: ' *';
+    color: red;
+}
+.name-Name span::after,
+.name-email span::after,
+.man span::after{
+    content: ' *';
+    color: red;
+}
+.password-container{
+    margin-top: 2px;
+}
+/* name */
+.name-firstName span,
+.name-email span,
+.name-Name span,
+.name span{
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    width: 50px;
+    height: 20px !important;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    height: 30px;
+    background-color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.name-firstName .spanFirstName,
+.name-Name .spanName,
+.name-email .spanEmail {
+    top: -7px;
+    font-size: 17px;
+ }
+ .name-date #spanday::after,
+ .name-firstName span::after,
+ .name-email span::after,
+.name-pass span::after{
+    content: ' *';
+    color: red;
+}
+/* password */
+
+.name-pass span{
+    font-size: 18px;
+    position: relative;
+    top: 50PX;
+    width: 90px;
+   left: 30px;
+   background-color: white;
+    font-size: 18px;
+   transition: 0.3s;
+}
+.name-pass .spanPassword{
+    top: 20px;
+    font-size: 17px;
+}
+.showPass{
+    width: 20%;
+    z-index: 10;
+    position: absolute;
+    left: 320px;
+    font-size: 17px;
+}
+.name-date span{
+    height: 30px;
+    position: absolute;
+}
+.date
+{ margin-left: 30px;
+   position: relative;
+    width: 60px;
+    height: 50px;
+    padding-left: 10px;
+}
+.spanday{
+    position: absolute;
+    top: 9px;
+    z-index: 10;
+  left: 54px;
+    width: 40px;
+    height: 20px !important;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    height: 30px;
+    background-color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.name-date .spanDay{
+    top: -9px;
+    font-size: 17px;
+ }
+ .spandayyear,
+ .spanmonth{
+    position: relative;
+    top: 10px;
+    left: 145px;
+    z-index: 10;
+    width: 49px;
+    height: 20px !important;
+    text-align: left;
+    justify-content: center;
+    float: left;
+    height: 30px;
+    background-color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.spandayyear{
+    left: 240px ;
+}
+.name-date .spanYear,
+.name-date .spanMonth{
+    top: -12px;
+    font-size: 17px;
+ }

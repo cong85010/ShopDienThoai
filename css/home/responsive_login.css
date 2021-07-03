@@ -1,0 +1,15 @@
+ @media only screen and (max-width: 1028px) {
+    .text-Email-name, .text-password-name {
+        width: 100%;
+    }
+    .showPass {
+        right: 10px;
+    }
+    aside .offer {
+        left: 20px;
+    }
+    .offer-secon {
+        left: 40%;
+        bottom: 0px;
+    }
+}

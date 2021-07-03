@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Điện thoại</title>
+        <link rel="stylesheet" href="/css/Lib.css">
+        <link rel="stylesheet" href="/css/product/product.css">
+        <link rel="stylesheet" href="/css/product/responsive_pr.css">
+        <script src="/vendor/bootstrap.js" defer></script>
+        <script src="/vendor/jquery-3.6.0.min.js" defer></script>
+        <script src="/js/main.js" defer></script>
+        <script src="/js/product/product.js" defer></script>
+    </head>
+    <body>
+        <nav id="header" class="navbar navbar-default navbar-fixed-top" role="navigation"></nav>
+        <div class="container__top">
+            <div class="container__intro">
+                <div class="container__intro--title"></div>
+                <div class="container__intro--memory nav__pc"></div>
+                <div class="container__intro--price">
+                    <small class="product__item--priceOld"></small>
+                    <b class="product__item--priceNew"></b>
+                </div>
+            </div>
+        </div>
+        <div class="container product--detail">
+            <div class="row">
+                <div class="product__intro col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="product__intro-fixed">
+                        <div class="product__intro--img">
+                            <img onerror="this.src='/img/imgNotLink.png'" src="" alt="">
+                        </div>
+                        <div class="product__intro--ship row">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><i
+                                    class="fa fa-car" aria-hidden="true"></i>
+                                <br> Giao hàng nhanh chóng
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><i
+                                    class="fa fa-undo" aria-hidden="true"></i>
+                                <br> Dễ dàng hoàn trả
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <span class="label label-danger">New</span>
+                    <h1 class="product__infor--title"></h1>
+                    <p>Thu củ đổi mới từ iPhone 7, S10+ trở lên được hổ trợ từ 2-10 triệu, đặc biệt hơn nếu mua sản phẩm trên 20 triệu tặng quà hấp dẫn</p>
+                    <div class="product__infor--option">
+                        <h5>Nhiều sự lựa chọn về bộ nhớ</h5>
+                        <select name="" id="input" class="mySelectMMR form-control">
+                        </select>
+                        <h5>Màu sắc</h5>
+                        <div class="product__infor--option--color">
+                            <b class="color--grey"></b>
+                            <b class="color--gold"></b>
+                            <b class="color--blue"></b>
+                            <b class="color--silver"></b>
+                        </div>
+                    </div>
+                    <ul class="list-group product__infor--more">
+                        <li class="list-group-item">Màn hình: 6.1", Super Retina
+                            XDR, AMOLED</li>
+                        <li class="list-group-item">Camera sau: 12.0 MP + 12.0
+                            MP + 12.0 MP</li>
+                        <li class="list-group-item">CPU: A14 Bionic</li>
+                        <li class="list-group-item">Thẻ sim: 2, 1 eSIM, 1 Nano
+                            SIM</li>
+                    </ul>
+                   <a class="btn btn-danger" onclick="addCart();" href="/html/shopping__cart/shopping_cart.html">Mua ngay</a>
+                    <div class="review">
+                        <h4>iPhone 12 và iPhone 12 Pro</h4>
+                        <h2>Chi tiết về thiết bị trải nghiệm cập nhật iOS 14.5 - iPhone 12 Pro Max</h2>
+                        <ul style="margin-left: 20px;">
+                            <li>CPU: Apple A14 Bionic (xây dựng dựa trên tiến trình).</li>
+                            <li>RAM: 6 GB.</li>
+                            <li>Bộ nhớ trong: 256 GB (phiên bản bộ nhớ mà mình đang dùng).</li>
+                            <li>Hệ điều hành (trước khi cập nhật): 14.1.</li>
+                        </ul>
+                        <img src="/img/review/setting.png" alt="">
+                        <span>Đây là tình trạng pin trên iPhone 12 Pro Max của mình trước khi cập nhật iOS 14.5 (dung lượng 1.78 GB).</span>
+                        <p>Cá nhân mình thấy bộ thông số này của iPhone 12 Pro Max là quá khủng rồi và mình chẳng có từ nào để mô tả được hết toàn bộ sức mạnh của em máy này. Hơn nữa, đại diện đến từ Apple cũng là một trong những mẫu điện thoại có hiệu năng khủng nhất trong thế giới smartphone tính đến thời điểm hiện tại. Tuy nhiên, hiệu năng của iPhone 12 Pro Max sau khi cập nhật lên iOS 14.5 sẽ như thế nào? Mời các bạn cùng xem phần tiếp theo để rõ hơn nhé.</p>
+                        <img src="/img/review/front-rv.png" alt="">
+                        <span>Liệu sau khi iPhone 12 Pro Max lên iOS 14.5 thì hiệu năng của thiết bị có ổn định hay không?</span>
+                        <h2>Hiệu năng của iPhone 12 Pro Max sau khi lên iOS 14.5: Đã mạnh nay còn mạnh hơn nữa</h2>
+                        <p>Điểm số luôn là một trong những yếu tố phản ánh đúng nhất về hiệu năng của một chiếc smartphone nên mình đã tiến hành chấm điểm hiệu năng của iPhone 12 Pro Max (trước và sau khi lên iOS 14.5) bằng những phần mềm quen thuộc: AnTuTu Benchmark, 3DMark Sling Shot Extreme và 3DMark Wild Life Stress Test. Kết quả mình thu được như sau:</p>
+                        <img src="/img/review/compare.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer"></footer>
+    </body>
+</html>

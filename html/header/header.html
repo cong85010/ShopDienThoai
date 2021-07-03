@@ -1,0 +1,144 @@
+<a href="/html/home/index.html" class="navbar-brand">
+    <img src="/img/logo/logo.png" alt="">
+</a>
+<ul class="nav__pc nav navbar-nav">
+    <li>
+        <a href="/html/home/index.html">Trang chủ</a>
+    </li>
+    <li>
+        <a href="#">Hãng điện thoại</a>
+        <ul class="nav__level2 nav__level2--brand">
+            <span></span>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Loại sản phẩm</a>
+        <ul class="nav__level2 nav__level2--classify">
+            <span></span>
+        </ul>
+    </li>
+    <li>
+        <a href="/html/news/imformation.html">Tin công nghệ</a>
+    </li>
+</ul>
+<div class="nav__mobile  nav__shopping--cart none__tedec">
+    <a href="/html/shopping__cart/shopping_cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+</div>
+<div class="nav__pc nav__right">
+    <div class="nav__right__top">
+       
+        <ul class="none__tedec">
+            <li  ><i class="fa fa-plus" aria-hidden="true"></i>
+                <a href="#" data-toggle="modal" data-target="#myModal">Trợ giúp</a>
+            </li>
+            <span>|</span>
+            <li><i class="fa fa-user" aria-hidden="true"></i><a id="dangnhapTK"
+                    href="/html/home/login.html">Đăng nhập</a></li>
+            <span>|</span>
+            <li><i class="fa fa-shopping-cart" aria-hidden="true"></i><a
+                    href="/html/shopping__cart/shopping_cart.html">Giỏ hàng</a></li>
+        </ul>
+    </div>
+    <div class="nav__right__bottom">
+        <form action="">
+            <input autocomplete="off" id="search" type="text" placeholder="Tìm kiếm...">
+            <button><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+    </div>
+</div>
+<button class="openMenu">
+    <span><i id=true class="fa fa-bars" aria-hidden="true"></i></span>
+</button>
+<div class="menu__Mobile">
+    <ul class="none__tedec">
+        <li>
+            <a href="/html/home/index.html">
+                <span>Trang chủ</span>
+                <i class="fa fa-home" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="menu__Mobile--brand">
+            <a href="#">
+                <span>Hãng điện thoại</span>
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+            </a>
+            <ul class="nav__level2 nav__level2--brand"></ul>
+        </li>
+        <li class="menu__Mobile--classify">
+            <a href="#">
+                <span>Loại sản phẩm</span>
+                <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+            </a>
+            <ul class="nav__level2 nav__level2--classify"></ul>
+        </li>
+        <li>
+            <a href="/html/news/imformation.html">
+                <span>Tin công nghệ</span>
+                <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#" data-toggle="modal" data-target="#myModal">
+                <span>Trợ giúp</span>
+                <i class="fa fa-plus" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a id="dangnhapTK" href="/html/home/login.html">
+                <span>Đăng nhập</span>
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <form class="form_search--mobile" action="">
+                <input autocomplete="off" id="search2" type="text" placeholder="Tìm kiếm...">
+                <button><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+        </li>
+    </ul>
+</div>
+<div class="scrollTop">
+   <a href="#header"> <i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+</div>
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Trợ giúp</h4>
+        </div>
+        <div class="modal-body">
+            <h3 class="text-center text-upperCase">
+                Liên hệ với chúng tôi
+            </h3>
+            <form class="reach_contain text-center">
+                <div class="form-group form-inline form-reactive">
+                    <label class="w-50" for="fullName"><i class="fa fa-user"></i></label>
+                    <input style="width: 90%;" id="fullName" class="form-control form_reach" type="text" name="" placeholder="Họ tên">
+                </div>                    
+                <div class="form-group form-inline form-reactive">
+                    <label class="w-50" for="phone1"><i class="fa fa-phone"></i></label>
+                    <input style="width: 40%;" id="phone1" 
+                    class="form-control form_reach" 
+                    type="tel" name="" placeholder="Số điện thoại">
+                    <label class="w-50" for="mail"><i class="fa fa-envelope mt-20" aria-hidden="true"></i></label>
+                    <input style="width: 40%;" id="mail" 
+                    class="form-control form_reach" 
+                    type="email" required placeholder="Email">
+                </div>       
+                <div class="form-group form-inline form-reactive">
+                    <label class="w-50" for="mes"><i class="fa fa-comment" aria-hidden="true"></i></label>                        
+                    <textarea  style="width: 90%;" name="" id="textarea" class="form-control form_reach"
+                     rows="3" placeholder="Nội dung"></textarea>
+                </div>           
+                <button class="btn btn-muted btn-linear">Gửi phản hồi <i class="fa fa-plane icon_submit" aria-hidden="true"></i></button>    
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>

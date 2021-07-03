@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/css/Lib.css" />
+    <link rel="stylesheet" href="/css/home/register.css" />
+    <link rel="stylesheet" href="/css/home/responsive_login.css">
+    <script src="/vendor/jquery-3.6.0.min.js" defer></script>
+    <script src="/js/main.js" defer></script>
+    <script src="/vendor/bootstrap.js" defer></script>
+    <script src="/js/shopping_cart/register.js" defer></script>
+
+<body>
+    <nav id="header" class="navbar navbar-default" role="navigation"></nav>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <h2 class="text-uppercase header">Đăng kí</h2>
+                    <div class="container-form">
+                        <h3 class="title text-uppercase ">Tên của bạn</h3>
+                        <form action="">
+                            <div class="row">
+                                <div class="col-xs-10 name-Name">
+                                    <span>Tên</span>
+                                    <input type="text" id="name" class="email-text">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-10 name-firstName">
+                                    <span>Họ</span>
+                                    <input type="text" id="lastName" class="email-text">
+                                </div>
+                            </div>
+                    </div>
+            
+                    <div class="container-form">
+                        <div class="man">
+                            <h3 class="title text-uppercase ">Ngày Sinh</h3>
+                        </div>
+    
+                        <div class="row ">
+                            <div class="col-sm-10 col-xs-10 name-date">
+                                <input width="100%" type="date" name="" id="input" class="email-text form-control" value="" required="required" title="">
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="container-form">
+    
+                        <div class="man">
+                            <h3 class="title text-uppercase ">Giới tính</h3>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <label for="male"><input type="radio" id="male" name="gender" class="radio-input" value="male">Nam</label>
+                                <label for="female"><input type="radio" id="female" name="gender" class="radio-input" value="female">Nữ</label>
+                                <label for="other"><input type="radio" id="other" name="gender" class="radio-input" value="other">Khác</label>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <div class="container-form">
+                        <h3 class="title text-uppercase ">Chi tiết đăng nhập</h3>
+    
+                        <div class="row">
+                            <div class="col-xs-10 name-email">
+                                <span>Email</span>
+                                <input type="text" id="email" class="email-text email-focus">
+                            </div>
+                        </div>
+    
+                        <span class="showPass"><i class="fa fa-eye" aria-hidden="true"></i> hiện</span>
+    
+                        <div class="row ">
+                            <div class="col-xs-10 name-pass">
+                                <span>Mật khẩu</span>
+                                <input type="password" id="pasword" class="email-text password">
+                            </div>
+                            <div class="col-xs-10 ">
+                                <p class="span-login text-danger"> Vui lòng đảm bảo mật khẩu của bạn chứa tối thiếu một chữ cái, một
+                                    chữ số và dài tối thiểu 6 ký tự (ex: A12345)</p>
+                            </div>
+                        </div>
+    
+    
+                        </form>
+                        <div class="lg-submit">
+                            <a class="btn-submit button-lg btn btn-dark">
+                                <span>Đăng ký
+                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+                            </a>
+                        </div>
+                        <div class="jum text-uppercase"><b>Hoặc</b></div>
+                        <div class="lg-submit-fast">
+                            <div class="lg-submit-fast-f">
+                                <button type="submit" class="button-sm">
+                                    <span>FACEBOOK</span>
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                            <div class="lg-submit-fast-g">
+                                <button type="submit" class="button-sm">
+                                    <span>GOOGLE</span>
+                                    <i class="fa fa-google" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="container-right">
+                        <h2 class="text-uppercase header">Tạo một tài khoản</h2>
+                        <h4 class="right-title"> Đăng nhập chung sẽ giúp bạn truy cập:</h4>
+                        <ul class="rg">
+                            <li class="option"> <i class="fa fa-check" aria-hidden="true"></i> Một lần đăng nhập chung duy
+                                nhất để tương tác với các sản phẩm và dịch vụ</li>
+                            <li class="option"> <i class="fa fa-check" aria-hidden="true"></i>Thanh toán nhanh chóng với
+                                nhiều lựa chọn</li>
+                            <li class="option"> <i class="fa fa-check" aria-hidden="true"></i>Chọn sản phẩm truy cập giỏ
+                                hàng nhiều ưu đãi </li>
+                            <li class="option"> <i class="fa fa-check" aria-hidden="true"></i>Tìm kiếm sản phẩm nhanh chóng
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+
+    </footer>
+</body>
+
+</html>

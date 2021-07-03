@@ -1,0 +1,146 @@
+#header {
+    box-shadow: none;
+    margin: 0;
+}
+.container-fluid {
+    padding: 0 50px;
+}
+.payment__title {
+    background-color: #f0f0f0;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.checkout {
+    padding: 50px 0;
+}
+.checkout__item {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+}
+.title_opacity {
+    color: gainsboro;
+}
+.checkout__item--step {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px auto;
+    background-color: gainsboro;
+    color: white;
+    border-radius: 50%;
+}
+.checkout__item--step_active {
+    background-color: rgb(19, 19, 19);
+}
+.checkout__item--process {
+    width: 154px;
+    position: absolute;
+    height: 3px;
+    top: 50px;
+    transform: translateY(10px);
+}
+.checkout__item--process--right {
+    right: 0;
+    background-color: black;
+}
+.checkout__item--process--left {
+    left: 0;
+    background-color: gainsboro;
+}
+.payment__table thead th:last-child {text-align: end;}
+.payment__tableBody {
+    color: rgb(199, 198, 198);
+}
+.payment__tableBody tr {
+    padding-top: 10px !important;
+}
+.payment__tableBody td:first-child{
+    text-align: center;
+   font-size: 20px;
+   vertical-align: middle;
+}
+
+.payment__tableBody td h4 {
+    color: black;
+}
+.payment__tableBody td h5 {
+   padding: 35px 0;
+}
+.payment__tableBody  img {
+   object-fit: scale-down;
+}
+.payment__tableBody--count::before{
+    width: 20px;
+    background-color: #fff;
+}
+.payment__tableBody--count {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+}
+.payment__tableBody--count span {
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+}
+.payment__tableBody--count .fa {
+    width: 25%;
+    font-size: 17px;
+}
+.payment__tableBody--count .fa:hover{cursor: pointer;}
+.payment__tableBody td:last-child h5{
+    color: black;
+    font-weight: bold !important;
+    text-align: end;
+}
+.form_voucher {
+    height: 35px;
+    text-align: end;
+   margin: 20px 0;
+}
+.voucher__coupon {
+    transform: translateX(25px);
+}
+.form_voucher input{
+    height: 100%;
+    padding: 0 30px;
+    border: 0.5px solid gainsboro;
+    transition: 0.4s;
+}
+.form_voucher input:focus {
+    box-shadow: 0 0 5px 0 blue;
+    outline: none;
+}
+.form_voucher button {
+    margin-top: -3px;
+    height: 100%;
+    padding: 3px 30px;
+    font-weight: bold;
+}
+.sum_payment {
+    padding: 20px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    text-align: end;
+}
+.sum_payment--title {
+    margin: 0;
+    text-align: start;
+}
+.sum__payment--detail {
+    margin-top: 20px;
+    text-align: end;
+}
+.sum_payment a {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+#footer {
+    margin-top: 100px;
+}

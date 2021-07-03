@@ -1,0 +1,139 @@
+:root {
+    --color_darkWhite : rgb(199, 199, 199);
+    --colorKhoi : #f0f0f0;
+}
+@keyframes top_down {
+    0% {
+        top: 20px;
+    }
+    50% {
+        top: 30px;
+    }
+    100% {
+        top: 40px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .product__intro-fixed_scroll {
+        position: fixed;
+        animation: top_down 0.7s ease;
+        top: 40px;
+    }
+  }
+.navbar {
+    box-shadow: none;
+    margin-bottom: 0;
+    position: unset;
+}
+
+.container__top {
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: var(--color_darkWhite);
+    width: 100%;
+    transition: all 0.3s;
+}
+.container__top--fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--colorKhoi);
+    z-index: 10;
+}
+.container__intro {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin: 0 10%;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container__intro--memory button{
+    background: none;
+    border: none;
+    margin: 5px;
+    font-weight: bold;
+}
+.container__intro--memory .activeBtn {
+   border-bottom: 2px solid #395966;
+}
+.product__item--priceOld{
+    font-size: 14px;
+}
+.product__item--priceNew{
+    font-size: 16px;
+}
+.product--detail {
+    margin-top: 50px;
+}
+.product__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.product__intro--img {
+    padding: 10%;
+}
+.product__intro--img img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+.product__intro--ship {
+    width: 100%;
+    margin: 0;
+    transform: translateY(-50px);
+    font-size: 20px;
+    text-align: center;
+}
+.product__intro--ship div {
+    padding: 20px 0;
+}
+.product__infor--option  select{
+    width: 100px;
+}
+.product__infor--option--color {
+    display: flex;
+    width: 50%;
+}
+.product__infor--option--color b{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.product__infor--title {
+    text-transform: uppercase;
+}
+.color--grey {
+    background-color: grey;
+}
+.color--gold {
+    background-color: gold;
+}
+.color--blue {
+    background-color: #395966;
+}
+.color--silver {
+    background-color: gainsboro;
+}
+.product__infor--more {
+    margin-top: 20px;
+    width: 70%;
+}
+.review{
+    padding: 50px 0;
+}
+.review img {
+    width: 100%;
+    object-fit: cover;
+}
+.review p {
+    width: 80%; 
+    margin: 10px auto; 
+    font-size: 18px;
+}

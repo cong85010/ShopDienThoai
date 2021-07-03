@@ -1,0 +1,104 @@
+#header {
+    box-shadow: none;
+    margin: 0;
+}
+.container-fluid {
+    padding: 0 50px;
+}
+.payment__title {
+    background-color: #f0f0f0;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.checkout {
+    padding: 50px 0;
+}
+.checkout__item {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+}
+.title_opacity {
+    color: gainsboro;
+}
+.checkout__item--step {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px auto;
+    background-color: gainsboro;
+    color: white;
+    border-radius: 50%;
+}
+.checkout__item--step_active {
+    background-color:rgb(19, 19, 19);
+}
+.checkout__item--process {
+    width: 154px;
+    position: absolute;
+    height: 3px;
+    top: 50px;
+    transform: translateY(10px);
+}
+.checkout__item--process--right {
+    right: 0;
+    background-color: black;
+}
+.checkout__item--process--left {
+    left: 0;
+    background-color: gainsboro;
+}
+.checkout__item--process--left_active {
+    left: 0;
+    background-color: black;
+}
+.form-group {
+    margin-bottom: 25px !important;
+}
+.sum_payment {
+    padding: 20px;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+.sum_payment--title {
+    margin: 0;
+}
+.sum__payment--detail {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.detail_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.detail_list > div {
+    margin: 10px 20px;
+}
+.text-end {
+    text-align: end;
+}
+.howpayment {
+    padding: 10px 0;
+}
+.howpayment input {
+    min-width: 30px;
+}
+.howpayment label {margin: 10px 0;}
+.sum_payment a {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.leftPaddingNon{
+    padding-left: 0;
+}
+.rightPaddingNon{
+    padding-right: 0;
+}
+#footer {
+    margin-top: 100px;
+}

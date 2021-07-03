@@ -1,0 +1,1272 @@
+{
+    "dataBrands": [
+        "iPhone ",
+        "Sam Sung",
+        "Xiaomi",
+        "V Smart",
+        "Oppo",
+        "Vivo"
+    ],
+    "dataSlides" : 
+    [
+        {
+            "id":"pr1",
+            "img": "/img/product/iphone12pro.png",
+            "title": "iPhone 12",
+            "more": ["Mini", "Pro", "ProMax"],
+            "memory": ["64GB", "128GB", "256GB"]
+        },
+        {
+            "id":"pr4",
+            "img": "/img/product/samsungs21plus.jpg",
+            "title": "Sam sung S21 Plus",
+            "more": ["S21", "PLus", "Ultra"],
+            "memory": ["256GB", "512GB", "1TB"]
+        },
+        {
+            "id":"pr6",
+            "img": "/img/product/mi11.jpg",
+            "title": "Xiaomi Mi 11",
+            "more": ["Lite", "PLus", "Ultra"],
+            "memory": ["128GB", "256GB", "512GB"]
+        }
+    ],
+    "dataProducts" :
+    [
+        {
+            "id":"pr1",
+            "classify":"high",
+            "img": "/img/product/iphone12pro.png",
+            "title": "iPhone  12 Pro",
+            "memory": ["64GB", "128GB", "256GB"],
+            "price" : {
+                "low" : {
+                    "Old": 24990000,
+                    "New": 23890000
+                },
+                "medium" : {
+                    "Old": 26990000,
+                    "New": 24890000
+                },
+                "high" : {
+                    "Old": 28490000,
+                    "New": 27590000
+                }
+            }
+        },
+        {
+            "id":"pr2",
+            "classify":"high",
+            "img": "/img/product/iphone12pro.png",
+            "title": "iPhone  12 Pro Max",
+            "memory": ["64GB", "128GB", "256GB"],
+            "price" : {
+                "low" : {
+                    "Old": 26990000,
+                    "New": 25890000
+                },
+                "medium" : {
+                    "Old": 28990000,
+                    "New": 26690000
+                },
+                "high" : {
+                    "Old": 30090000,
+                    "New": 28590000
+                }
+            }
+        },
+        {
+            "id":"pr3",
+            "classify":"high",
+            "img": "/img/product/iphone12.jpg",
+            "title": "iPhone  12",
+            "memory": ["64GB", "128GB", "256GB"],
+            "price" : {
+                "low" : {
+                    "Old": 17990000,
+                    "New": 16890000
+                },
+                "medium" : {
+                    "Old": 21990000,
+                    "New": 20890000
+                },
+                "high" : {
+                    "Old": 23490000,
+                    "New": 22590000
+                }
+            }
+        },
+        {
+            "id":"pr4",
+            "classify":"high",
+            "img": "/img/product/samsungs21plus.jpg",
+            "title": "Sam sung S21 Plus",
+            "memory": ["256GB", "512GB", "1TB"],
+            "price" : {
+                "low" : {
+                    "Old": 21990000,
+                    "New": 19890000
+                },
+                "medium" : {
+                    "Old": 23990000,
+                    "New": 22890000
+                },
+                "high" : {
+                    "Old": 25490000,
+                    "New": 24990000
+                }
+            }
+        },
+        {
+            "id":"pr5",
+            "classify":"high",
+            "img": "/img/product/s21Ultra.jpg",
+            "title": "Sam sung S21 Ultra",
+            "memory": ["256GB", "512GB", "1TB"],
+            "price" : {
+                "low" : {
+                    "Old": 23990000,
+                    "New": 21890000
+                },
+                "medium" : {
+                    "Old": 26990000,
+                    "New": 24890000
+                },
+                "high" : {
+                    "Old": 29490000,
+                    "New": 27590000
+                }
+            }
+        },
+        {
+            "id":"pr6",
+            "classify":"medium",
+            "img": "/img/product/mi11.jpg",
+            "title": "Xiaomi Mi 11",
+            "memory": ["128GB", "256GB", "512GB"],
+            "price" : {
+                "low" : {
+                    "Old": 14990000,
+                    "New": 13890000
+                },
+                "medium" : {
+                    "Old": 16990000,
+                    "New": 14990000
+                },
+                "high" : {
+                    "Old": 19490000,
+                    "New": 18590000
+                }
+            }
+        },
+        {
+            "id":"pr7",
+            "classify":"medium",
+            "img": "/img/product/mi10TPro.png",
+            "title": "Xiaomi Mi 10T Pro",
+            "memory": ["64GB", "128GB", "256GB"],
+            "price" : {
+                "low" : {
+                    "Old": 11990000,
+                    "New": 10990000
+                },
+                "medium" : {
+                    "Old": 14990000,
+                    "New": 12990000
+                },
+                "high" : {
+                    "Old": 16890000,
+                    "New": 13890000
+                }
+            }
+        },
+        {
+            "id":"pr8",
+            "classify":"low",
+            "img": "/img/product/V_mArisPro.png",
+            "title": "V Smart Aris Pro",
+            "memory": ["8GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 8990000,
+                    "New": 7890000
+                },
+                "medium" : {
+                    "Old": 11890000,
+                    "New": 10990000
+                },
+                "high" : {
+                    "Old": 13890000,
+                    "New": 10890000
+                }
+            }
+        },
+        {
+            "id":"pr9",
+            "classify":"low",
+            "img": "/img/product/V_mAris.png",
+            "title": "V Smart Aris",
+            "memory": ["8GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 7590000,
+                    "New": 6990000
+                },
+                "medium" : {
+                    "Old": 9890000,
+                    "New": 7590000
+                },
+                "high" : {
+                    "Old": 12890000,
+                    "New": 9890000
+                }
+            }
+        },
+        {
+            "id":"pr10",
+            "classify":"medium",
+            "img": "/img/product/OPPOReno5.png",
+            "title": "OPPO Reno5",
+            "memory": ["64GB", "128GB", "256GB"],
+            "price" : {
+                "low" : {
+                    "Old": 11590000,
+                    "New": 10990000
+                },
+                "medium" : {
+                    "Old": 13890000,
+                    "New": 12990000
+                },
+                "high" : {
+                    "Old": 14890000,
+                    "New": 13590000
+                }
+            }
+        },
+        {
+            "id":"pr11",
+            "classify":"medium",
+            "img": "/img/product/OPPOReno4Pro.png",
+            "title": "OPPO Reno4 Pro",
+            "memory": ["64GB", "128GB", "256GB"],
+            "price" : {
+                "low" : {
+                    "Old": 10990000,
+                    "New": 9590000
+                },
+                "medium" : {
+                    "Old": 12890000,
+                    "New": 11490000
+                },
+                "high" : {
+                    "Old": 14590000,
+                    "New": 11990000
+                }
+            }
+        },
+        {
+            "id":"pr12",
+            "classify":"low",
+            "img": "/img/product/OPPOReno4.png",
+            "title": "OPPO Reno4",
+            "memory": ["32GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 8490000,
+                    "New": 6490000
+                },
+                "medium" : {
+                    "Old": 9890000,
+                    "New": 8490000
+                },
+                "high" : {
+                    "Old": 10890000,
+                    "New": 9990000
+                }
+            }
+        },
+        {
+            "id":"pr13",
+            "classify":"high",
+            "img": "/img/product/VivoX60Pro.png",
+            "title": "Vivo X60 Pro",
+            "memory": ["64GB", "128GB", "256GB"],
+            "price" : {
+                "low" : {
+                    "Old": 13900000,
+                    "New": 12590000
+                },
+                "medium" : {
+                    "Old": 16900000,
+                    "New": 13900000
+                },
+                "high" : {
+                    "Old": 18890000,
+                    "New": 15990000
+                }
+            }
+        },
+        {
+            "id":"pr14",
+            "classify":"low",
+            "img": "/img/product/VivoV202021.png",
+            "title": "Vivo V20 2021",
+            "memory": ["32GB", "63GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 8490000,
+                    "New": 7999000
+                },
+                "medium" : {
+                    "Old": 9900000,
+                    "New": 8950000
+                },
+                "high" : {
+                    "Old": 10890000,
+                    "New": 9990000
+                }
+            }
+        },
+        {
+            "id":"pr15",
+            "classify":"low",
+            "img": "/img/product/VivoV20SE.png",
+            "title": "Vivo V20 SE",
+            "memory": ["32GB", "63GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 7190000,
+                    "New": 6499000
+                },
+                "medium" : {
+                    "Old": 8590000,
+                    "New": 7950000
+                },
+                "high" : {
+                    "Old": 10190000,
+                    "New": 8140000
+                }
+            }
+        },
+        {
+            "id":"pr16",
+            "classify":"low",
+            "img": "/img/product/VsmartLive.png",
+            "title": "V Smart Live ",
+            "memory": ["16GB", "32GB", "64GB"],
+            "price" : {
+                "low" : {
+                    "Old": 6190000,
+                    "New": 5090000
+                },
+                "medium" : {
+                    "Old": 6590000,
+                    "New": 5950000
+                },
+                "high" : {
+                    "Old": 8190000,
+                    "New": 7550000
+                }
+            }
+        },
+        {
+            "id":"pr17",
+            "classify":"high",
+            "img": "/img/product/SamsungGFold2.png",
+            "title": "Sam sung Galaxy Z Fold2",
+            "memory": ["64GB", "128GB", "256GB"],
+            "price" : {
+                "low" : {
+                    "Old": 46900000,
+                    "New": 47090000
+                },
+                "medium" : {
+                    "Old": 47590000,
+                    "New": 48950000
+                },
+                "high" : {
+                    "Old": 50000000,
+                    "New": 49990000
+                }
+            }
+        },
+        {
+            "id":"pr18",
+            "classify":"high",
+            "img": "/img/product/iphone11Pro.png",
+            "title": "iPhone  11 Pro",
+            "memory": ["64GB", "256GB", "512GB"],
+            "price" : {
+                "low" : {
+                    "Old": 20950000,
+                    "New": 19090000
+                },
+                "medium" : {
+                    "Old": 22890000,
+                    "New": 20990000
+                },
+                "high" : {
+                    "Old": 25990000,
+                    "New": 23990000
+                }
+            }
+        },
+        {
+            "id":"pr19",
+            "classify":"high",
+            "img": "/img/product/IPhone11.png",
+            "title": "iPhone  11",
+            "memory": ["64GB", "128GB", "256GB"],
+            "price" : {
+                "low" : {
+                    "Old": 15990000,
+                    "New": 14890000
+                },
+                "medium" : {
+                    "Old": 16990000,
+                    "New": 15990000
+                },
+                "high" : {
+                    "Old": 18490000,
+                    "New": 17990000
+                }
+            }
+        },
+        {
+            "id":"pr20",
+            "classify":"medium",
+            "img": "/img/product/IphoneSE.png",
+            "title": "iPhone  12 Mini",
+            "memory": ["32GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 10490000,
+                    "New": 9890000
+                },
+                "medium" : {
+                    "Old": 11990000,
+                    "New": 10990000
+                },
+                "high" : {
+                    "Old": 12990000,
+                    "New": 11450000
+                }
+            }
+        },
+        {
+            "id":"pr21",
+            "classify":"high",
+            "img": "/img/product/iphone12Mini.png",
+            "title": "iPhone  12 Mini",
+            "memory": ["64GB", "128GB", "256GB"],
+            "price" : {
+                "low" : {
+                    "Old": 15990000,
+                    "New": 14890000
+                },
+                "medium" : {
+                    "Old": 16990000,
+                    "New": 15490000
+                },
+                "high" : {
+                    "Old": 19290000,
+                    "New": 17190000
+                }
+            }
+        },
+        {
+            "id":"pr22",
+            "classify":"medium",
+            "img": "/img/product/iphoneXR.png",
+            "title": "iPhone XR",
+            "memory": ["64GB", "128GB", "256GB"],
+            "price" : {
+                "low" : {
+                    "Old": 13990000,
+                    "New": 11890000
+                },
+                "medium" : {
+                    "Old": 14840000,
+                    "New": 12490000
+                },
+                "high" : {
+                    "Old": 18990000,
+                    "New": 15190000
+                }
+            }
+        },
+        {
+            "id":"pr23",
+            "classify":"high",
+            "img": "/img/product/SamSungGZip.png",
+            "title": "Sam sung Galaxy Z Flip",
+            "memory": ["64GB", "128GB", "256GB"],
+            "price" : {
+                "low" : {
+                    "Old": 18190000,
+                    "New": 17990000
+                },
+                "medium" : {
+                    "Old": 22840000,
+                    "New": 19490000
+                },
+                "high" : {
+                    "Old": 25890000,
+                    "New": 20990000
+                }
+            }
+        },
+        {
+            "id":"pr24",
+            "classify":"high",
+            "img": "/img/product/SamSungS20Pl.png",
+            "title": "Sam sung Galaxy S20 Plus",
+            "memory": ["64GB", "128GB", "256GB"],
+            "price" : {
+                "low" : {
+                    "Old": 13990000,
+                    "New": 12990000
+                },
+                "medium" : {
+                    "Old": 13940000,
+                    "New": 14950000
+                },
+                "high" : {
+                    "Old": 18990000,
+                    "New": 15990000
+                }
+            }
+        },
+        {
+            "id":"pr25",
+            "classify":"high",
+            "img": "/img/product/SamSungS20FE.png",
+            "title": "Sam sung Galaxy S20 Plus",
+            "memory": ["64GB", "128GB", "256GB"],
+            "price" : {
+                "low" : {
+                    "Old": 1190000,
+                    "New": 9990000
+                },
+                "medium" : {
+                    "Old": 16140000,
+                    "New": 10950000
+                },
+                "high" : {
+                    "Old": 16990000,
+                    "New": 11990000
+                }
+            }
+        },
+        {
+            "id":"pr26",
+            "classify":"high",
+            "img": "/img/product/SamSungS20ultra.png",
+            "title": "Sam sung Galaxy S20 Ultra",
+            "memory": ["64GB", "128GB", "256GB"],
+            "price" : {
+                "low" : {
+                    "Old": 19990000,
+                    "New": 19090000
+                },
+                "medium" : {
+                    "Old": 29940000,
+                    "New": 28950000
+                },
+                "high" : {
+                    "Old": 30190000,
+                    "New": 29990000
+                }
+            }
+        },
+        {
+            "id":"pr27",
+            "classify":"medium",
+            "img": "/img/product/SamSungGA72.png",
+            "title": "Sam sung Galaxy A72",
+            "memory": ["32GB", "62GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 12990000,
+                    "New": 10090000
+                },
+                "medium" : {
+                    "Old": 13950000,
+                    "New": 11990000
+                },
+                "high" : {
+                    "Old": 14190000,
+                    "New": 16990000
+                }
+            }
+        },
+        {
+            "id":"pr28",
+            "classify":"low",
+            "img": "/img/product/SamSungGA52.png",
+            "title": "Sam sung Galaxy A52",
+            "memory": ["32GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 9290000,
+                    "New": 8890000
+                },
+                "medium" : {
+                    "Old": 10950000,
+                    "New": 9990000
+                },
+                "high" : {
+                    "Old": 13190000,
+                    "New": 10290000
+                }
+            }
+        },
+        {
+            "id":"pr29",
+            "classify":"low",
+            "img": "/img/product/SamSungA32.png",
+            "title": "Sam sung Galaxy A32",
+            "memory": ["32GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 6990000,
+                    "New": 6390000
+                },
+                "medium" : {
+                    "Old": 9150000,
+                    "New": 7290000
+                },
+                "high" : {
+                    "Old": 10190000,
+                    "New": 9290000
+                }
+            }
+        },
+        {
+            "id":"pr30",
+            "classify":"low",
+            "img": "/img/product/SamsungGA02s.png",
+            "title": "Sam sung Galaxy A02s",
+            "memory": ["8GB", "32GB", "64GB"],
+            "price" : {
+                "low" : {
+                    "Old": 4190000,
+                    "New": 3990000
+                },
+                "medium" : {
+                    "Old": 5150000,
+                    "New": 4990000
+                },
+                "high" : {
+                    "Old": 7190000,
+                    "New": 5590000
+                }
+            }
+        },
+        {
+            "id":"pr31",
+            "classify":"low",
+            "img": "/img/product/SamsungGA12.png",
+            "title": "Sam sung Galaxy A12",
+            "memory": ["8GB", "32GB", "64GB"],
+            "price" : {
+                "low" : {
+                    "Old": 4990000,
+                    "New": 4290000
+                },
+                "medium" : {
+                    "Old": 5150000,
+                    "New": 4590000
+                },
+                "high" : {
+                    "Old": 7190000,
+                    "New": 5590000
+                }
+            }
+        },
+        {
+            "id":"pr32",
+            "classify":"low",
+            "img": "/img/product/SamsungGA51.png",
+            "title": "Sam sung Galaxy A51",
+            "memory": ["32GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 7590000,
+                    "New": 6690000
+                },
+                "medium" : {
+                    "Old": 8950000,
+                    "New": 7290000
+                },
+                "high" : {
+                    "Old": 1090000,
+                    "New": 9290000
+                }
+            }
+        },
+        {
+            "id":"pr33",
+            "classify":"low",
+            "img": "/img/product/SamsungGA31.png",
+            "title": "Sam sung Galaxy A31",
+            "memory": ["4GB", "8GB", "32GB"],
+            "price" : {
+                "low" : {
+                    "Old": 5790000,
+                    "New": 5590000
+                },
+                "medium" : {
+                    "Old": 6950000,
+                    "New": 6290000
+                },
+                "high" : {
+                    "Old": 7990000,
+                    "New": 7290000
+                }
+            }
+        },
+        {
+            "id":"pr34",
+            "classify":"low",
+            "img": "/img/product/SamsungGA21.png",
+            "title": "Sam sung Galaxy A21s",
+            "memory": ["4GB", "8GB", "32GB"],
+            "price" : {
+                "low" : {
+                    "Old": 4790000,
+                    "New": 3890000
+                },
+                "medium" : {
+                    "Old": 5150000,
+                    "New": 4990000
+                },
+                "high" : {
+                    "Old": 6120000,
+                    "New": 6990000
+                }
+            }
+        },
+        {
+            "id":"pr35",
+            "classify":"low",
+            "img": "/img/product/SamsungGA11.png",
+            "title": "Sam sung Galaxy A11",
+            "memory": ["4GB", "8GB", "32GB"],
+            "price" : {
+                "low" : {
+                    "Old": 3590000,
+                    "New": 2990000
+                },
+                "medium" : {
+                    "Old": 3550000,
+                    "New": 3190000
+                },
+                "high" : {
+                    "Old": 4520000,
+                    "New": 4190000
+                }
+            }
+        },
+        {
+            "id":"pr36",
+            "classify":"low",
+            "img": "/img/product/SamsungGA11.png",
+            "title": "Sam sung Galaxy A11",
+            "memory": ["4GB", "8GB", "32GB"],
+            "price" : {
+                "low" : {
+                    "Old": 3590000,
+                    "New": 2990000
+                },
+                "medium" : {
+                    "Old": 3550000,
+                    "New": 3190000
+                },
+                "high" : {
+                    "Old": 4520000,
+                    "New": 4190000
+                }
+            }
+        },
+        {
+            "id":"pr37",
+            "classify":"low",
+            "img": "/img/product/VivoY50.png",
+            "title": "Vivo Y50",
+            "memory": ["8GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 6590000,
+                    "New": 4990000
+                },
+                "medium" : {
+                    "Old": 7950000,
+                    "New": 5590000
+                },
+                "high" : {
+                    "Old": 9920000,
+                    "New": 8290000
+                }
+            }
+        },
+        {
+            "id":"pr38",
+            "classify":"low",
+            "img": "/img/product/VivoY11.png",
+            "title": "Vivo Y11",
+            "memory": ["4GB", "8GB", "32GB"],
+            "price" : {
+                "low" : {
+                    "Old": 3990000,
+                    "New": 2990000
+                },
+                "medium" : {
+                    "Old": 3950000,
+                    "New": 32590000
+                },
+                "high" : {
+                    "Old": 5320000,
+                    "New": 4590000
+                }
+            }
+        },
+        {
+            "id":"pr39",
+            "classify":"low",
+            "img": "/img/product/VivoY51.png",
+            "title": "Vivo Y51",
+            "memory": ["32GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 6290000,
+                    "New": 5990000
+                },
+                "medium" : {
+                    "Old": 7150000,
+                    "New": 6050000
+                },
+                "high" : {
+                    "Old": 9250000,
+                    "New": 8590000
+                }
+            }
+        },
+        {
+            "id":"pr40",
+            "classify":"low",
+            "img": "/img/product/VivoY72.png",
+            "title": "Vivo Y72",
+            "memory": ["32GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 9120000,
+                    "New": 7990000
+                },
+                "medium" : {
+                    "Old": 9950000,
+                    "New": 8050000
+                },
+                "high" : {
+                    "Old": 10950000,
+                    "New": 9190000
+                }
+            }
+        },
+        {
+            "id":"pr41",
+            "classify":"low",
+            "img": "/img/product/VivoY12s.png",
+            "title": "Vivo Y72s",
+            "memory": ["4GB", "8GB", "32GB"],
+            "price" : {
+                "low" : {
+                    "Old": 3920000,
+                    "New": 3290000
+                },
+                "medium" : {
+                    "Old": 4250000,
+                    "New": 3950000
+                },
+                "high" : {
+                    "Old": 6150000,
+                    "New": 5990000
+                }
+            }
+        },
+        {
+            "id":"pr42",
+            "classify":"low",
+            "img": "/img/product/VivoY20.png",
+            "title": "Vivo Y20",
+            "memory": ["4GB", "8GB", "32GB"],
+            "price" : {
+                "low" : {
+                    "Old": 3990000,
+                    "New": 3690000
+                },
+                "medium" : {
+                    "Old": 4990000,
+                    "New": 4250000
+                },
+                "high" : {
+                    "Old": 6990000,
+                    "New": 5290000
+                }
+            }
+        },
+        {
+            "id":"pr43",
+            "classify":"low",
+            "img": "/img/product/VivoY1s.png",
+            "title": "Vivo Y1s",
+            "memory": ["4GB", "8GB", "32GB"],
+            "price" : {
+                "low" : {
+                    "Old": 2990000,
+                    "New": 2390000
+                },
+                "medium" : {
+                    "Old": 3990000,
+                    "New": 3150000
+                },
+                "high" : {
+                    "Old": 4990000,
+                    "New": 4590000
+                }
+            }
+        },
+        {
+            "id":"pr44",
+            "classify":"low",
+            "img": "/img/product/VsmartJoy4.png",
+            "title": "V Smart Joy 4",
+            "memory": ["8GB", "16GB", "32GB"],
+            "price" : {
+                "low" : {
+                    "Old": 3290000,
+                    "New": 2790000
+                },
+                "medium" : {
+                    "Old": 3990000,
+                    "New": 3150000
+                },
+                "high" : {
+                    "Old": 4990000,
+                    "New": 4590000
+                }
+            }
+        },
+        {
+            "id":"pr45",
+            "classify":"low",
+            "img": "/img/product/VsmartStar4.png",
+            "title": "V Smart Star 4 ",
+            "memory": ["8GB", "16GB", "32GB"],
+            "price" : {
+                "low" : {
+                    "Old": 2940000,
+                    "New": 2340000
+                },
+                "medium" : {
+                    "Old": 4590000,
+                    "New": 4990000
+                },
+                "high" : {
+                    "Old": 5550000,
+                    "New": 5150000
+                }
+            }
+        },
+        {
+            "id":"pr46",
+            "classify":"low",
+            "img": "/img/product/VsmartActive3.png",
+            "title": "V Smart Active 3",
+            "memory": ["8GB", "16GB", "32GB"],
+            "price" : {
+                "low" : {
+                    "Old": 3990000,
+                    "New": 3690000
+                },
+                "medium" : {
+                    "Old": 4150000,
+                    "New": 3990000
+                },
+                "high" : {
+                    "Old": 4950000,
+                    "New": 4150000
+                }
+            }
+        },
+        {
+            "id":"pr47",
+            "classify":"low",
+            "img": "/img/product/OppoA94.png",
+            "title": "OPPO A94",
+            "memory": ["32GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 7690000,
+                    "New": 7390000
+                },
+                "medium" : {
+                    "Old": 8150000,
+                    "New": 7990000
+                },
+                "high" : {
+                    "Old": 9550000,
+                    "New": 9150000
+                }
+            }
+        },
+        {
+            "id":"pr48",
+            "classify":"low",
+            "img": "/img/product/OppoA73.png",
+            "title": "OPPO A73",
+            "memory": ["32GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 5690000,
+                    "New": 4490000
+                },
+                "medium" : {
+                    "Old": 4950000,
+                    "New": 4690000
+                },
+                "high" : {
+                    "Old": 5550000,
+                    "New": 5150000
+                }
+            }
+        },
+        {
+            "id":"pr49",
+            "classify":"low",
+            "img": "/img/product/OppoA54.png",
+            "title": "OPPO A54",
+            "memory": ["32GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 4990000,
+                    "New": 4690000
+                },
+                "medium" : {
+                    "Old": 5650000,
+                    "New": 5150000
+                },
+                "high" : {
+                    "Old": 6550000,
+                    "New": 6250000
+                }
+            }
+        },
+        {
+            "id":"pr50",
+            "classify":"low",
+            "img": "/img/product/OppoA15s.png",
+            "title": "OPPO A15s",
+            "memory": ["8GB", "32GB", "64GB"],
+            "price" : {
+                "low" : {
+                    "Old": 4150000,
+                    "New": 3990000
+                },
+                "medium" : {
+                    "Old": 4850000,
+                    "New": 4550000
+                },
+                "high" : {
+                    "Old": 5150000,
+                    "New": 4950000
+                }
+            }
+        },
+        {
+            "id":"pr51",
+            "classify":"low",
+            "img": "/img/product/OppoA93.png",
+            "title": "OPPO A93",
+            "memory": ["32GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 6490000,
+                    "New": 5990000
+                },
+                "medium" : {
+                    "Old": 6550000,
+                    "New": 6150000
+                },
+                "high" : {
+                    "Old": 7150000,
+                    "New": 6950000
+                }
+            }
+        },
+        {
+            "id":"pr52",
+            "classify":"low",
+            "img": "/img/product/OppoA15.png",
+            "title": "OPPO A15",
+            "memory": ["8GB", "32GB", "64GB"],
+            "price" : {
+                "low" : {
+                    "Old": 3890000,
+                    "New": 3490000
+                },
+                "medium" : {
+                    "Old": 4520000,
+                    "New": 4150000
+                },
+                "high" : {
+                    "Old": 5250000,
+                    "New": 4950000
+                }
+            }
+        },
+        {
+            "id":"pr53",
+            "classify":"low",
+            "img": "/img/product/XiaomiNote10Pro.png",
+            "title": "Xiaomi Redmi Note 10 Pro",
+            "memory": ["32GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 7950000,
+                    "New": 7490000
+                },
+                "medium" : {
+                    "Old": 7920000,
+                    "New": 7750000
+                },
+                "high" : {
+                    "Old": 9050000,
+                    "New": 8250000
+                }
+            }
+        },
+        {
+            "id":"pr54",
+            "classify":"low",
+            "img": "/img/product/XiaomiRNote9.png",
+            "title": "Xiaomi Redmi Note 9",
+            "memory": ["32GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 4990000,
+                    "New": 4490000
+                },
+                "medium" : {
+                    "Old": 5920000,
+                    "New": 5750000
+                },
+                "high" : {
+                    "Old": 6050000,
+                    "New": 5950000
+                }
+            }
+        },
+        {
+            "id":"pr55",
+            "classify":"low",
+            "img": "/img/product/XiaomiRNote10Pro.png",
+            "title": "Xiaomi Redmi Note 10 Pro mini",
+            "memory": ["8GB", "16GB"],
+            "price" : {
+                "low" : {
+                    "Old": 4950000,
+                    "New": 3490000
+                },
+                "medium" : {
+                    "Old": 5100000,
+                    "New": 4950000
+                }
+            }
+        },
+        {
+            "id":"pr56",
+            "classify":"low",
+            "img": "/img/product/XiaomiRNote10.png",
+            "title": "Xiaomi Redmi Note 10 Pro",
+            "memory": ["32GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 5490000,
+                    "New": 5090000
+                },
+                "medium" : {
+                    "Old": 5790000,
+                    "New": 5500000
+                },
+                "high" : {
+                    "Old": 750000,
+                    "New": 590000
+                }
+            }
+        },
+        {
+            "id":"pr57",
+            "classify":"low",
+            "img": "/img/product/XiaomiR9C.png",
+            "title": "Xiaomi Redmi 9C",
+            "memory": ["3GB", "32GB", "64GB"],
+            "price" : {
+                "low" : {
+                    "Old": 2990000,
+                    "New": 2690000
+                },
+                "medium" : {
+                    "Old": 3120000,
+                    "New": 2900000
+                },
+                "high" : {
+                    "Old": 3550000,
+                    "New": 3200000
+                }
+            }
+        },
+        {
+            "id":"pr58",
+            "classify":"low",
+            "img": "/img/product/XiaomiPocoX3NFC.png",
+            "title": "Xiaomi Redmi 9C",
+            "memory": ["6GB", "64GB", "128GB"],
+            "price" : {
+                "low" : {
+                    "Old": 6990000,
+                    "New": 5590000
+                },
+                "medium" : {
+                    "Old": 6150000,
+                    "New": 5900000
+                },
+                "high" : {
+                    "Old": 6950000,
+                    "New": 6500000
+                }
+            }
+        },
+        {
+            "id":"pr59",
+            "classify":"low",
+            "img": "/img/product/XiamoRedmi9.png",
+            "title": "Xiaomi Redmi 9",
+            "memory": ["4GB", "32GB", "64GB"],
+            "price" : {
+                "low" : {
+                    "Old": 3990000,
+                    "New": 3940000
+                },
+                "medium" : {
+                    "Old": 4550000,
+                    "New": 4200000
+                },
+                "high" : {
+                    "Old": 4950000,
+                    "New": 4700000
+                }
+            }
+        }
+    ]
+}

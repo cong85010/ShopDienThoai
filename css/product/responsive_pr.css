@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px)  {
+    .container__intro--title {
+        width: 50%;
+    }
+    .container__intro--price {
+        width: 50%;
+        text-align: end;
+    }
+}

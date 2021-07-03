@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Điện thoại</title>
+
+        <link rel="stylesheet" href="/css/shopping__cart/shopping__cart.css">
+        <link rel="stylesheet" href="/css/Lib.css">
+        <script src="/vendor/bootstrap.js" defer></script>
+        <script src="/vendor/jquery-3.6.0.min.js" defer></script>
+        <script src="/js/main.js" defer></script>
+        <script src="/js/shopping_cart/shopping.js" defer></script>
+    </head>
+    <body>
+        <nav id="header" class="navbar navbar-default" role="navigation"></nav>
+        <h1 class="text-center text-uppercase payment__title">Giỏ hàng</h1>
+        <div class="container">
+            <div class="row text-center">
+                <div class="checkout col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="checkout__item">
+                        <b class="checkout__item--title">Giỏ hàng</b>
+                        <div class="checkout__item--step
+                            checkout__item--step_active">1</div>
+                        <span class="checkout__item--process
+                            checkout__item--process--right"></span>
+                    </div>
+                </div>
+                <div class="checkout col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="checkout__item">
+                        <b class="checkout__item--title title_opacity">Chi tiết
+                            thanh toán</b>
+                        <div class="checkout__item--step">2</div>
+                        <span class="checkout__item--process
+                            checkout__item--process--left"></span>
+                        <span class="checkout__item--process
+                            checkout__item--process--right"
+                            style="background-color: gainsboro;"></span>
+                    </div>
+                </div>
+                <div class="checkout col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="checkout__item">
+                        <b class="checkout__item--title title_opacity">Thông tin
+                            đơn hàng</b>
+                        <div class="checkout__item--step">3</div>
+                        <span class="checkout__item--process
+                            checkout__item--process--left"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                    <table class="table table-hover table-dark payment__table">
+                        <thead>
+                            <th colspan="3">Sản phẩm</th>
+                            <th class="nav__pc">Giá tiền</th>
+                            <th class="nav__pc">Số lượng</th>
+                            <th colspan="2">Tạm tính</th>
+                        </thead>
+                        <tbody class="payment__tableBody">
+                            
+                        </tbody>
+                    </table>
+                    <div class="form_voucher">
+                        <i class="voucher__coupon fa fa-tag" aria-hidden="true"></i>
+                       <input value="" id="voucher" type="text" placeholder="Mã giám giá">
+                        <button onclick="handleVoucher()" class="btn btn-danger">Áp dụng</button>
+                    </div>
+                </div>
+
+                <div class="sum_payment col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-1">
+                    
+                </div>
+            </div>
+        </div>
+        <footer id="footer"></footer>
+    </body>
+</html>
