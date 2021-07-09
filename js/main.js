@@ -52,6 +52,7 @@ function scrollTopPhone() {
 
 //Render data
 $(document).ready(function () {
+
     $(window).scroll(() => {
         let posScroll = $('html, body').scrollTop();
         if (posScroll > 700) {
@@ -85,7 +86,20 @@ $(document).ready(function () {
                 $('#dangnhapTK').text('Tài khoản')
                 $('#dangnhapTK span').text('Tài khoản')
             }
+                //search 
+            $('#btn-search').click(() => {
+                handleSerch()
+            })
+            $('#search').on('keypress',function(e) {
+                if(e.which == 13) {
+                    handleSerch()
+                }
+            });
         })
+    }
+    const handleSerch = () => {
+        let valueSearch = $('#search').val().toLowerCase()
+        window.location.href = `/html/search/search.html?search=${valueSearch}`
     }
     function loadFooter() {
         $('#footer').load('/html/footer/footer.html')

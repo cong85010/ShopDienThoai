@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shop Điện thoại</title>
+    <title>Danh mục tìm kiếm</title>
     <link rel="stylesheet" href="/css/Lib.css" />
     <link rel="stylesheet" href="/css/list--product/list_product.css" />
-    <script src="/vendor/bootstrap.js" defer></script>
     <script src="/vendor/jquery-3.6.0.min.js" defer></script>
+    <script src="/vendor/bootstrap.js" defer></script>
     <script src="/js/main.js" defer></script>
-    <script src="/js/list--product/list_products.js" defer></script>
+    <script src="/js/search/search.js" defer></script>
   </head>
   <body>
     <nav
@@ -21,9 +21,9 @@
     <div class="container">
       <div class="row">
         <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <h1 class="text-uppercase title_list--products">
-            Danh sách <span></span>
-          </h1>
+          <h2 class="text-uppercase title_list--products">
+            Bạn muốn tìm: <span></span>
+          </h2>
           <ul class="list-inline list__sort">
             <li class="list-inline-item list__sort--item">
               <b>Sắp xếp theo:</b>
@@ -41,8 +41,8 @@
               <b id="priceGift">Khuyến mãi</b>
             </li>
           </ul>
+          <!-- Render san pham -->
           <div class="products"></div>
-          <!-- <nav aria-label="Page navigation" class="navigation"><ul class="pagination"></ul></nav> -->
         </div>
       </div>
     </div>
