@@ -209,7 +209,7 @@ html, body {
 .nav__right__top ul li {
     padding: 0 5px;
     transition: 0.3s;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .nav__right__top ul li i {
@@ -321,6 +321,7 @@ html, body {
 .carousel-control {
     background: none !important;
     color: #777 !important;
+    width: 200px !important;
 }
 
 .menu__select {
@@ -481,4 +482,9 @@ footer {
     background-color: gray !important;
     border-color: gray !important;
     color: white !important;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }

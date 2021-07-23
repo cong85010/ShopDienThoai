@@ -58,7 +58,7 @@ $(document).ready(function () {
             <h4>Tổng</h4>
             <h3>${convertMoney(sumNotVoucher()-priceVOUCHER)}</h3>
             <h2 class="text-danger">Đã thanh toán</h2>
-            <a href="/html/home/index.html" class="btn btn-default "><b class="cart_end text-success">Tiếp tục giao dịch khác</b></a>
+            <a href="/index.html" class="btn btn-default "><b class="cart_end text-success">Tiếp tục giao dịch khác</b></a>
          </div>
       `
   );

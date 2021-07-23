@@ -64,7 +64,10 @@ $(document).ready(function () {
         handleBtnMMR(item)
         handleBtnMMR2(item)
     }
-
+    $('.product__infor--option--color b').click(function () {
+        $('.product__infor--option--color b').removeClass('activeColor')
+        $(this).addClass('activeColor')
+    })
     function handleBtnMMR(item) {
         $('.btn-memory').click(function (e) {
             let memmory = e.target.id
@@ -81,6 +84,7 @@ $(document).ready(function () {
         });
     }
     function setPrice(MMRID, item) {
+        console.log(item)
         if (MMRID === 'mmr_0') {
             memmorySelected  = item.memory[0]
             priceOld = item.price.low.Old

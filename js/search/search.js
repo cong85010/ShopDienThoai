@@ -2,15 +2,17 @@ $(document).ready(function () {
     let href = window.location.href
     let url = new URL(href) //http.asdasd.comg?name=abc
     let search =( url.searchParams.get('search') || '').trim()
-    let  dataProductsBrand = []
+    let  dataSearch = []
     $('.title_list--products span').text(search)
     $.getJSON("/js/data.json").done(() => {
         dataSearch = dataProducts.filter((item) => item.title.toLowerCase().includes(search))
         loadDataProduct(dataSearch)
             console.log(dataSearch)
+        sort(dataSearch)
         if(dataSearch.length === 0) {
             loadNothing()
         }
+
     })     
     const loadNothing = () => {
         $('.products').html(

@@ -105,13 +105,14 @@ body {
 .showPass {
     position: absolute;
     width: 100px;
-    left: 280px;
+    right: 21%;
     top: 190px;
     font-size: 18px;
-    
     text-align: end;
+    transition: 0.3s;
 }
 .showPass:hover {
+    transform: scale(1.1);
     cursor: pointer;
 }
 .lg-pasword-error,

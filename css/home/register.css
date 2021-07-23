@@ -190,8 +190,12 @@
     width: 20%;
     z-index: 10;
     position: absolute;
-    left: 320px;
+    right: 50px;
     font-size: 17px;
+}
+.showPass:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .name-date span{
     height: 30px;

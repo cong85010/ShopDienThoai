@@ -27,23 +27,16 @@ function getCountItem(arr, item, price) {
 function deleteItem(id, price) {
     let indexRM = carts.findIndex((item) => item.id == id && item.price == price)
     if(indexRM == -1) return
-    if(indexRM === 0) {
-        if(getCountItem(carts, id, price) === 1) {
-            if(confirm('Bạn chắc chắn muốn bỏ sản phẩm này')) {
-                carts = []
-            }
-        } else {
-            carts.splice(1, 1)
-        }
-    }
-    else {
-        if(getCountItem(carts, id, price) === 1) {
-            if(confirm('Bạn chắc chắn muốn bỏ sản phẩm này')) {
-                carts.splice(indexRM, 1)
-            }
-        } else  {
+    if(getCountItem(carts, id, price) === 1) {
+        if(confirm('Bạn chắc chắn muốn bỏ sản phẩm này')) {
             carts.splice(indexRM, 1)
         }
+    }
+    else if(indexRM === 0) {
+            carts.splice(1, 1)
+    }
+    else {
+            carts.splice(indexRM, 1)
     }
     localStorage.setItem('listCart', JSON.stringify(carts))
     renderCart()
@@ -56,7 +49,9 @@ function addItem(id, price) {
 }
 function removeAll(id, price) {
     if(confirm('Bạn chắc chắn muốn bỏ sản phẩm này')) {
-        carts = carts.filter(item => item.id !== id && item.price === price)
+        console.log(carts)
+
+        carts = carts.filter(item => item.id !== id ||  (item.id === id && item.price !== price))
         localStorage.setItem('listCart', JSON.stringify(carts))
         renderCart()
     }
@@ -81,7 +76,7 @@ function renderCart() {
         $('.payment__tableBody').append(
             `
             <tr>
-                <td><a onclick="removeAll('${item.id},${item.price}'); return false" href="#"><i class="fa fa-times" aria-hidden="true"></i></a></td>
+                <td><a onclick="removeAll('${item.id}',${item.price}); return false" href="#"><i class="fa fa-times" aria-hidden="true"></i></a></td>
                 <td><img height="100" width="100"
                         src=${item.img}
                         alt="">

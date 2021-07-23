@@ -75,6 +75,7 @@ $(document).ready(function () {
         renderPopulation()
         rederPavination(dataProducts)
         loadDataProduct(dataProducts)
+        sort(dataProducts)
     })
 
     function loadHeader() {
@@ -163,26 +164,70 @@ $(document).ready(function () {
         })
     }
 });
-
-//sort products
+function getNameSort(name) {
+    if (name === "priceHight") {
+        return 'Giá cao'
+    } else
+        if (name === "priceLow") {
+           return 'Giá thấp'
+        } else
+            if (name === "priceMoney") {
+                return 'Bán chạy'
+            } else
+                if (name === "priceGift") {
+                    return 'Khuyến mại'
+                }
+}
+function sort(dataSORT) {
+    //sort products
 $('.list__sort--item').click((event) => {
+    let page = getPageCurent()/MAX_products_page
+    if(page > 1) {
+        window.location.href = window.location.href.split('?')[0]
+    }
+    localStorage.setItem('sort', event.target.id)
     if (event.target.id === "priceHight") {
         $(event.target).attr('id', 'priceLow')
         $(event.target).text('Giá thấp')
-        sortByPrice(dataProducts, 'up')
+        sortByPrice(dataSORT, 'up')
     } else
         if (event.target.id === "priceLow") {
             $(event.target).attr('id', "priceHight")
             $(event.target).text('Giá cao')
-            sortByPrice(dataProducts, 'down')
+            sortByPrice(dataSORT, 'down')
         } else
             if (event.target.id === "priceMoney") {
-                renderProduct(dataProducts)
+                renderProduct(dataSORT)
             } else
                 if (event.target.id === "priceGift") {
-                    sortByGift(dataProducts)
+                    sortByGift(dataSORT)
                 }
 });
+}
+
+function returnSort(dataSORT, sort) {
+    //sort products
+    if(sort !== null) {
+        let title = $(`#titleChange`).text().split('theo')[0];
+        $(`#titleChange`).text(title + ' theo ' + getNameSort(sort))
+
+    }
+    if (sort === "priceHight") {
+        dataSORT.sort((a, b) => b.price.low.New - a.price.low.New)
+    } else
+        if (sort === "priceLow") {
+            dataSORT.sort((a, b) => a.price.low.New - b.price.low.New)
+            
+        } else
+            if (sort === "priceMoney") {
+                 dataSORT
+            } else
+                if (sort === "priceGift") {
+                 dataSORT.sort((a, b) => (b.price.low.Old - b.price.low.New) - (a.price.low.Old - a.price.low.New))
+                }
+
+      return dataSORT
+}
 //high - medium - low == phan loai
 function convertEN(string) {
     return dataClassify.en[dataClassify.vn.indexOf(string)]
@@ -212,12 +257,16 @@ function sortByGift(dataPr) {
 }
 function renderProduct(products) {
     let productsSub = [...products]
+    if(localStorage.getItem('sort') !== null) {
+        productsSub = returnSort(productsSub, localStorage.getItem('sort'))
+    }
     productsSub.length = 16
     $('.products').empty() //xoa tat ca thang con trong thang cha
     if (productsSub.length === 0) {
         $('.products').append('<h4>Hết sản phẩm...</h4>')
         return
     }
+    
     productsSub.map((item) => {
         $('.products').append(
             ` <div id= ${item.id} class="product__item none__tedec col-xs-12 col-sm-6 col-md-4 col-lg-3">
@@ -245,12 +294,21 @@ function renderProduct(products) {
         )
     })
 }
-function loadDataProduct(dataProducts) {
+function getPageCurent() {
     let href = window.location.href
     let url = new URL(href)
-    let page = (url.searchParams.get('page')|1 )* MAX_products_page 
+    let page = (url.searchParams.get('page')||1 )* MAX_products_page 
+    return page
+}
+function loadDataProduct(dataProducts) {
+    let productsSub = [...dataProducts]
+
+    if(localStorage.getItem('sort') !== null) {
+        productsSub = returnSort(productsSub, localStorage.getItem('sort'))
+    }
+    let page = getPageCurent()
     let start = page - MAX_products_page
-    let dataLoad = [...dataProducts].splice(start, MAX_products_page)
+    let dataLoad = [...productsSub].splice(start, MAX_products_page)
     renderProduct(dataLoad)
 }
 function rederPavination(dataProducts) {

@@ -96,6 +96,9 @@
 .product__infor--option  select{
     width: 100px;
 }
+.product__infor--option  select option{
+    font-size: 17px;
+}
 .product__infor--option--color {
     display: flex;
     width: 50%;
@@ -105,6 +108,14 @@
     height: 40px;
     border-radius: 50%;
     margin-right: 10px;
+    transition: 0.3s;
+}
+.product__infor--option--color b:hover{
+   cursor: pointer;
+   box-shadow: 0 0 0 3px black;
+}
+.activeColor {
+    box-shadow: 0 0 0 3px black;
 }
 .product__infor--title {
     text-transform: uppercase;

@@ -5,6 +5,9 @@
 .container-fluid {
     padding: 0 50px;
 }
+.formPayment {
+    padding: 20px;
+}
 .payment__title {
     background-color: #f0f0f0;
     height: 100px;
